@@ -4,7 +4,7 @@
   "private": true,
   "lint-staged": {
     "src/**/*.{vue,js,jsx,ts,tsx,json}": [
-      "yarn run lint",
+      "pnpm run lint",
       "prettier --write"
     ]
   },
