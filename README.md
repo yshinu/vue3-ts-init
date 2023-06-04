@@ -1,46 +1,33 @@
-# init
+# Vite4.3+Typescript+Vue3+Pinia 最新搭建企业级前端项目
+## 项目采用pnpm包管理器配置了以下内容：
+- ESLint
+- Prettier
+- Husky
+- 环境变量
+- Pinia
+- Vue Router
+- SCSS
+- 封装 Axios
+- postcss-pxtorem
+- 简单的性能优化
 
-This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## 代码提交规范
+| 关键词 | 描述 |
+| --- | --- |
+| `feat` | 新功能 |
+| `fix` | 修复 bug |
+| `style` | 样式修改（UI 校验） |
+| `docs` | 文档更新 |
+| `refactor` | 重构代码（既没有新增功能，也没有修复 bug） |
+| `perf` | 优化相关，比如提升性能、体验 |
+| `test` | 增加测试，包括单元测试、集成测试等 |
+| `build` | 构建系统或外部依赖项的更改 |
+| `ci` | 自动化流程配置或脚本修改 |
+| `revert` | 回退某个 commit 提交 |
 
-## Type Support for `.vue` Imports in TS
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-pnpm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-pnpm dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-pnpm build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
-```
+## 教程来自
+作者：敲代码的彭于晏
+链接：https://juejin.cn/post/7228978346502946874
